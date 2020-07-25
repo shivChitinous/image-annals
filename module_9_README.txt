@@ -1,7 +1,7 @@
 README
 
 Module 9 has two components - 1. constructing a training dataset of objects which have been manually identified as bacteria
-or non-bacteria and training an SVM classifier on it 2. testing the trained classifier on a testing dataset.
+or non-bacteria and training an SVM classifier on it 2. testing the trained classifier on a different dataset.
 
 1. TRAINING
 To do this, the module_9_training.ipynb notebook contains a gui for pointing and selecting objects. 
