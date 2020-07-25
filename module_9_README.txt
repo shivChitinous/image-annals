@@ -1,7 +1,7 @@
 README
 
-Module 9 has 2 components - constructing a training dataset of objects which have been manually identified as bacteria
-or non-bacteria. Plates folder contains seven images of bacterial culture plates.
+Module 9 has 2 components - 1. constructing a training dataset of objects which have been manually identified as bacteria
+or non-bacteria and training an SVM classifier with this 2. testing this classifier on a testing dataset.
 
 1. TRAINING
 To do this, the module_9_training.ipynb notebook contains a gui for pointing and selecting objects. 
@@ -20,3 +20,4 @@ To test the classifier, it was run on two csv files - bacterial_colony_3.csv as 
 Note:
 The gui can be used to manually classify other plates.
 The bacterial_colony folder also contains a zipped folder 'labelled_colonies.zip'. Extract labelled images from this in the form of .csv files (ex: labelled_colony_1.csv can be imported as an image as in module_9_testing.ipynb).
+Plates folder contains seven images of bacterial culture plates.
