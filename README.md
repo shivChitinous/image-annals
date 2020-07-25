@@ -6,4 +6,4 @@ You can find the assignments and information on this wonderful course [here](htt
 
 **Note**:
 1. `image_analysis.py` contains many functions that were translated from functions written in MATLAB by Raghuveer Parthasarathy.
-2. Images contained in the folders Images and Processed *must not* be used without permission.
+2. Images contained in the folders Images and Processed *must not* be used without express permission.
