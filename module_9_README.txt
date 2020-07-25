@@ -19,4 +19,4 @@ To test the classifier, it was run on two csv files - bacterial_colony_3.csv as 
 
 Note:
 The gui can be used to manually classify other plates.
-The bacterial_colony folder also contains the labelled images in the form of .csv files (ex: labelled_colony_1.csv can be imported as an image).
+The bacterial_colony folder also contains a zipped folder 'labelled_colonies.zip'. Extract labelled images from this in the form of .csv files (ex: labelled_colony_1.csv can be imported as an image as in module_9_testing.ipynb).
