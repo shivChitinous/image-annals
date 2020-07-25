@@ -4,9 +4,10 @@ Module 9 has two components - 1. constructing a training dataset of objects whic
 or non-bacteria and training an SVM classifier on it 2. testing the trained classifier on a different dataset.
 
 1. TRAINING
-To do this, the module_9_training.ipynb notebook contains a gui for pointing and selecting objects. 
+To do this, the module_9_training.ipynb notebook contains a gui for pointing and selecting objects.
+
 The bacterial_colonies folder contains three .csv files - bacterial_colony_1.csv, bacterial_colony_3.csv
-and bacterial_colony_5.csv that contain the index of the labelled object, their eccentricity and area as well as their classification. This was done using the point-and-select gui. The bacterial_
+and bacterial_colony_5.csv that contain the index of the labelled object, their eccentricity and area as well as their classification. This was done using the point-and-select gui.
 
 It also contains one .csv file that has NOT been manually classified - bacterial_colony_7.csv.
 
