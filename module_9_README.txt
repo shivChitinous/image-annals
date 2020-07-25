@@ -1,6 +1,6 @@
 README
 
-Module 9 has 2 components - 1. constructing a training dataset of objects which have been manually identified as bacteria
+Module 9 has two components - 1. constructing a training dataset of objects which have been manually identified as bacteria
 or non-bacteria and training an SVM classifier with this 2. testing this classifier on a testing dataset.
 
 1. TRAINING
