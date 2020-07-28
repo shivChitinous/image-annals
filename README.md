@@ -1,4 +1,4 @@
-# image_annals
+# image-annals
 ## Scripts written for an image-analysis course
 
 All notebooks were written as assignments for an informal image-analysis course by [Raghuveer Parthasarathy](https://eighteenthelephant.com/about/). 
