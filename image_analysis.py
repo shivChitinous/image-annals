@@ -44,7 +44,8 @@ def simulator(pic,scale_true,lam,ccd_scale,SNr,bkg,NA = 1.3,psf='gaussian',size=
     
     #noise addition
     S = SNr**2
-    noisy_sgnl = np.random.poisson(pixelated*S/np.max(pixelated))
+    if np.max(pixelated)>0: noisy_sgnl = np.random.poisson(pixelated*S/np.max(pixelated))
+    else: noisy_sgnl = pixelated
     noisy_bkg = np.random.poisson(bkg*np.ones(np.shape(noisy_sgnl)))
     final_img = noisy_bkg+noisy_sgnl
     return final_img
